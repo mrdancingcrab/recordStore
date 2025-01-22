@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toby's Records</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-black fixed-top py-3">
+    <div class="container-fluid">
+      <a id="brandLink" class="navbar-brand font-light text-white" href="index.html">Toby's Records</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse w-100" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a id="indexNavLinkActive" class="nav-link active px-3" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="indexNavLink" class="nav-link px-3" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a id="indexNavLink" class="nav-link px-3" href="shop.html">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div id="contentWrapper" class="content-wrapper">
+      <div id="indexBackgroundContainer" class="position-relative" style="height: 100vh;">
+        <img id="indexBackground" src="https://images.pexels.com/photos/167092/pexels-photo-167092.jpeg" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; transform: scale(-1, -1);" alt="Flipped Background">
+        <div id="indexTextContainer" class="d-flex flex-column justify-content-center align-items-center position-relative h-100 text-white">
+          <h1 id="indexHeader" class="mb- text-light">The best record store in town!</h1>
+          <h2 id="indexHeader2" class="fst-italic fw-light">"Been spinning shit since 1992"</h2>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

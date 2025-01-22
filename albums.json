@@ -1,0 +1,78 @@
+[
+    {
+       "artist": "Dungen",
+       "title": "Allas Sak",
+       "year": "2015",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/91HE57Oj-+L._UF1000,1000_QL80_.jpg"
+    },
+    {
+       "artist": "Pink Floyd",
+       "title": "Animals",
+       "year": "1977",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/81hZ21rNxZL.jpg"
+    },
+    {
+       "artist": "MGMT",
+       "title": "Congratulations",
+       "year": "2010",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/71N53qO1vQL._UF1000,1000_QL80_.jpg"
+    },
+    {
+       "artist": "Devendra Banhart",
+       "title": "Cripple Crow",
+       "year": "2005",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/91KC8sZMsGL._UF1000,1000_QL80_.jpg"
+    },
+    {
+       "artist": "Tame Impala",
+       "title": "Innerspeaker",
+       "year": "2010",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/81gEJyc5ImL.jpg"
+    },
+    {
+       "artist": "Animal Collective",
+       "title": "Merriweather Post Pavilion",
+       "year": "2009",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/91r3f7RUobL._UF1000,1000_QL80_.jpg"
+    },
+    {
+       "artist": "The Doors",
+       "title": "Morrison Hotel",
+       "year": "1970",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/81hEhgdzogL._UF1000,1000_QL80_.jpg"
+    },
+    {
+       "artist": "The Beatles",
+       "title": "Sgt. Pepper's Lonely Hearts Club Band",
+       "year": "1967",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/81ZVwENsT-L._UF1000,1000_QL80_.jpg"
+    },
+    {
+       "artist": "The Smiths",
+       "title": "The Smiths",
+       "year": "1984",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/71pnSxIeTVL._UF1000,1000_QL80_.jpg"
+    },
+    {
+       "artist": "The Flaming Lips",
+       "title": "Yoshimi Battles the Pink Robots",
+       "year": "2002",
+       "price": 19.99,
+       "image": "https://m.media-amazon.com/images/I/81hoqzNLUNL._UF1000,1000_QL80_.jpg"
+    },{
+      "artist": "Eddie Grant",
+       "title": "Electric Avenue",
+       "year": "1982",
+       "price": 19.99,
+       "image": "https://i.discogs.com/of3_XXMFlFkLA5aaMwEVDgj6FyrKYVUkeSpkzn7ofrU/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzcw/OTctMTMxNzIyNTI5/Ni5qcGVn.jpeg"
+    }
+]

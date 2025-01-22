@@ -1,0 +1,39 @@
+body {
+    overflow: hidden;
+}
+#indexNavLink{
+    color: rgba(249, 215, 170, 0.620);
+}
+
+#indexNavLinkActive{
+    color: rgba(249, 215, 170, 1);
+}
+
+
+#indexNavLink:hover{
+    color: rgba(249, 215, 170, 0.550);
+}
+
+#indexHeader2{
+    color: rgba(249, 215, 170, 0.689);
+}
+
+#contentWrapper {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+#contentWrapper.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#indexHeader{
+    font-size: 3vw;
+}
+
+#indexHeader2{
+    color: rgba(249, 215, 170, 1);
+    font-size: 2vw;
+}

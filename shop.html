@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toby's Records</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="shop.css">
+</head>
+
+<body> 
+  <nav class="navbar navbar-expand-lg bg-black fixed-top py-3 mb-5">
+    <div class="container-fluid">
+      <a id="brandLink" class="navbar-brand font-light text-white" href="index.html">Toby's Records</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse w-100" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a id="shopNavLink" class="nav-link px-3" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="shopNavLink" class="nav-link px-3" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a id="shopNavLinkActive" class="nav-link active px-3" href="shop.html">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="albumGrid mt-5">
+  </div>
+  <div id="shoppingCartSidebar" class="collapsed">
+    <div id="shoppingCartHeader" class="cart-header" >
+        <h2>Shopping Cart</h2>
+        <p id="shoppingCartTotal">Total: $0.00</p>
+    </div>
+    <div id="shoppingCartContent" class="cart-content">
+        <ul id="shoppingCartItems"></ul>
+    </div>
+    <div class="cart-footer">
+        <button id="clearShoppingCart">Clear shopping cart</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="shop.js"></script>
+</body>
+</html>
+
+
